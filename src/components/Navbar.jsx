@@ -93,7 +93,7 @@ const Navbar = ({toggleSidebar}) => {
                 alt="logo"
                 className="h-10 me-4"
               />{" "}
-              <div className="font-LogoTitle w-full">Books Shelf</div>
+              <div className="font-LogoTitle whitespace-nowrap inline-block">Books Shelf</div>
             </Link>
           </div>
           <div className=" w-1/6 lg:hidden flex items-center ">
