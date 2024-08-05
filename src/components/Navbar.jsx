@@ -89,7 +89,7 @@ const Navbar = ({toggleSidebar}) => {
               className="flex text-2xl font-semibold items-center justify-center "
             >
               <img
-                src="/public/10433049.png"
+                src="./10433049.png"
                 alt="logo"
                 className="h-10 me-4"
               />{" "}
