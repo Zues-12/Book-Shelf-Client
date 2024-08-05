@@ -91,7 +91,6 @@ const ViewBookDetails = () => {
           <div className="bg-zinc-900  px-12 py-8 flex flex-col lg:flex-row gap-8 h-auto">
             <div className="w-full lg:w-3/6 ">
               <div className=" flex flex-col md:flex-row items-start justify-around  bg-zinc-800 rounded px-4 py-8 gap-4 ">
-              {console.log("Current directory:", __dirname)}
                 <img
                   src={`/uploads/${Book.image}`}
                   alt="book"
