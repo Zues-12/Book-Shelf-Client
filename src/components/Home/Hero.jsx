@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-start">
             <Link
               to="/all-books"
-              className=" my-5 lg:my-8 text-3xl bg-zinc-900 rounded-full py-3 px-8 flex items-center justify-center text-white font-semibold border border-yellow-100 hover:bg-gradient-to-r from-zinc-900 to-blue-500 hover:scale-110 transition-all duration-300 animate-slidein opacity-0 [--slidein-delay:700ms]"
+              className=" my-5 lg:my-8 text-3xl bg-zinc-900 rounded-full py-3 px-8 flex items-center justify-center text-white font-semibold border border-yellow-100 hover:bg-gradient-to-r from-zinc-900 to-blue-500 hover:scale-110 transition-all duration-300"
             >
               Discover Books
             </Link>
