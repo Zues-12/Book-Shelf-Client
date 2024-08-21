@@ -88,9 +88,9 @@ const ViewBookDetails = () => {
       {Book && (
         <div className="bg-zinc-900  px-12 py-8 flex flex-col gap-8 h-auto">
 
-          <div className="bg-zinc-900  px-12 py-8 flex flex-col lg:flex-row gap-8 h-auto">
+          <div className="bg-zinc-900  lg:px-12 py-8 flex flex-col lg:flex-row gap-8 h-auto">
             <div className="w-full lg:w-3/6 ">
-              <div className=" flex flex-col md:flex-row items-start justify-around  bg-zinc-800 rounded px-4 py-8 gap-4 ">
+              <div className=" flex flex-col md:flex-row items-start justify-around  bg-zinc-800 rounded-lg px-7 py-8 gap-4">
                 <img
                   src={`/uploads/${Book.image}`}
                   alt="book"
@@ -108,7 +108,7 @@ const ViewBookDetails = () => {
                         </button>
                         <button
                          className={`
-                         mt-0 md:mt-8 bg-blue-500 text-white p-3 rounded md:rounded-full text-2xl  font-semibold flex items-center hover:bg-blue-600 transition-all duration-300 ${
+                        mx-2 mt-0 md:mt-8 bg-blue-500 text-white p-3 rounded md:rounded-full lg:text-2xl  font-semibold flex items-center hover:bg-blue-600 transition-all duration-300 ${
                           Book.qty <= 0 ? "hidden" : "" // Hide button if qty <= 0
                         }`}
                         

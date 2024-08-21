@@ -16,8 +16,8 @@ const Cartcount = ({headers}) => {
 
   return (
     <>
-        <div className="bg-zinc-900 px-12 py-2">
-          <h1 className="text-white text-xl">Currently {Count} people have this book in their cart</h1>
+        <div className="bg-zinc-900 lg:px-12 py-2">
+          <h1 className="text-white lg:text-xl">Currently {Count} people have this book in their cart</h1>
         </div>
     </>
   );

@@ -18,8 +18,8 @@ const SameAuthor = ({headers}) => {
   return (
     <>
       {Books && (
-        <div className="bg-zinc-900 px-12 py-8">
-          <h1 className="text-yellow-100 text-3xl">More Books by Same Author</h1>
+        <div className="bg-zinc-900 lg:px-12 py-8">
+          <h1 className="text-yellow-100 text-2xl lg:text-3xl">More Books by Same Author</h1>
 
       
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-8 mt-8">
