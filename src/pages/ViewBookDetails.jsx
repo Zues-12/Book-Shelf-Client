@@ -129,10 +129,10 @@ const ViewBookDetails = () => {
                           <FaRegEdit />
                         </Link>
                         <button
-                          className="mt-0 md:mt-8 bg-red-500 text-white p-3 rounded md:rounded-full text-2xl  font-semibold flex items-center hover:bg-red-600 transition-all duration-300"
+                          className="mx-2 mt-0 md:mt-8 bg-red-500 text-white p-3 rounded md:rounded-full lg:text-2xl  font-semibold flex items-center hover:bg-red-600 transition-all duration-300"
                           onClick={deleteBook}
                         >
-                          <MdDelete className="me-4 md:me-0" />{" "}
+                          <MdDelete className="me-3 md:me-0" />{" "}
                           <span className="block md:hidden">Delete book</span>
                         </button>
                       </>
