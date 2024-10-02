@@ -43,6 +43,8 @@ const Navbar = ({toggleSidebar}) => {
   }
   if (role === "admin") {
     links.splice(3, 1);
+    links.splice(2, 1);
+    
   }
 
 
