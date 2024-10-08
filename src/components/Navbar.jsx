@@ -91,7 +91,7 @@ const Navbar = ({toggleSidebar}) => {
               className="flex text-2xl font-semibold items-center justify-center "
             >
               <img
-                src="https://as1.ftcdn.net/v2/jpg/02/41/18/04/1000_F_241180477_vBXL8LEuc2qxv5Il2sIV6PpbBr4jD67z.jpg"
+                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-ijret&psig=AOvVaw3gFXLl0OxdyVfiEFxeXsDr&ust=1728475439781000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLiZ25Pg_ogDFQAAAAAdAAAAABAE"
                 alt="logo"
                 className="h-10 me-4"
               />{" "}
