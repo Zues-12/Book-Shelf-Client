@@ -38,7 +38,7 @@ const App = () => {
     }
   }, []);
   return (
-    <div className="">
+    <div className="min-h-screen">
       <Navbar toggleSidebar={toggleSidebar}/>
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar}/>
       <Routes>
