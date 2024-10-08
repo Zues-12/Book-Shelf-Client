@@ -91,7 +91,7 @@ const Navbar = ({toggleSidebar}) => {
               className="flex text-2xl font-semibold items-center justify-center "
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/128/5320/5320513.png"
+                src="https://cdn-icons-png.flaticon.com/128/6999/6999326.png"
                 alt="logo"
                 className="h-10 me-4"
               />{" "}
