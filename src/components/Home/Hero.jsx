@@ -7,12 +7,11 @@ const Hero = () => {
       <div className="w-full lg:w-3/6 h-[100%]  flex items-center justify-center ">
         <div className="w-full ">
           <h1 className="text-white text-3xl font-semibold text-center lg:text-left animate-slidein opacity-0 [--slidein-delay:300ms]">
-            <p>Login for Admin Profile</p>
-            <p>Username: admin</p>
-            <p>Password: admin123 </p>
-            <br>
-            Discover Your Next Great Read
+                        Discover Your Next Great Read
           </h1>
+            <p className="text-white text-3xl font-semibold text-center lg:text-left animate-slidein opacity-0>Login for Admin Profile</p>
+            <p className="text-white text-3xl font-semibold text-center lg:text-left animate-slidein opacity-0>Username: admin</p>
+            <p className="text-white text-3xl font-semibold text-center lg:text-left animate-slidein opacity-0>Password: admin123 </p>
           <p className="text-xl text-white mt-5 text-center lg:text-left animate-slidein opacity-0 [--slidein-delay:500ms]">
             Uncover captivating stories, enriching knowledge, and endless
             inspiration in our curated collection of books
