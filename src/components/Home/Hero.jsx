@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="bg-black h-auto lg:h-[89vh] w-full  flex flex-col lg:flex-row px-10 py-8 lg:py-0">
       <div className="w-full lg:w-3/6 h-[100%]  flex items-center justify-center ">
         <div className="w-full ">
-          <h1 className="text-white text-6xl font-semibold text-center lg:text-left animate-slidein opacity-0 [--slidein-delay:300ms]">
+          <h1 className="text-white text-3xl font-semibold text-center lg:text-left animate-slidein opacity-0 [--slidein-delay:300ms]">
             Login for Admin Profile
             Username: admin
             Password: admin123 
