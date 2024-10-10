@@ -6,12 +6,9 @@ const Hero = () => {
     <div className="bg-black h-auto lg:h-[89vh] w-full  flex flex-col lg:flex-row px-10 py-8 lg:py-0">
       <div className="w-full lg:w-3/6 h-[100%]  flex items-center justify-center ">
         <div className="w-full ">
-          <h1 className="text-white text-3xl font-semibold text-center lg:text-left animate-slidein opacity-0 [--slidein-delay:300ms]">
-                        Discover Your Next Great Read
-          </h1>
-            <p className="text-white text-3xl font-semibold text-center lg:text-left "> Login for Admin Profile </p>
-            <p className="text-white text-3xl font-semibold text-center lg:text-left "> Username: admin </p>
-            <p className="text-white text-3xl font-semibold text-center lg:text-left "> Password: admin123 </p>
+            <p className="text-white text-4xl font-semibold text-center lg:text-left "> Login for Admin Profile </p>
+            <p className="text-white text-4xl font-semibold text-center lg:text-left "> Username: admin </p>
+            <p className="text-white text-4xl font-semibold text-center lg:text-left "> Password: admin123 </p>
           <p className="text-xl text-white mt-5 text-center lg:text-left animate-slidein opacity-0 [--slidein-delay:500ms]">
             Uncover captivating stories, enriching knowledge, and endless
             inspiration in our curated collection of books
