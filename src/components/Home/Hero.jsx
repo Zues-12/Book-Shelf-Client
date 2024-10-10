@@ -9,8 +9,8 @@ const Hero = () => {
           <h1 className="text-white text-6xl font-semibold text-center lg:text-left animate-slidein opacity-0 [--slidein-delay:300ms]">
             Login for Admin Profile
             Username: admin
-            Password: admin123
-            
+            Password: admin123 
+            <br></br>
             Discover Your Next Great Read
           </h1>
           <p className="text-xl text-white mt-5 text-center lg:text-left animate-slidein opacity-0 [--slidein-delay:500ms]">
